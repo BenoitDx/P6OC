@@ -5,11 +5,13 @@ import Appartements from "./pages/Appartements";
 import About from "./pages/About"
 import Error from "./pages/Error";
 import "./App.css"; 
+import Navbar from "./componemts/Navbar/Navbar";
 
 
 function App () {
     return (
         <div className="App">
+            <Navbar></Navbar>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Appartements" element={<Appartements />} />
