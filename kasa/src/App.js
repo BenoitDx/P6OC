@@ -1,29 +1,23 @@
-import { useState } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Routes, Route} from "react-router-dom";
+import React from 'react';
+import Home from './pages/Home'
+import Appartements from "./pages/Appartements";
+import About from "./pages/About"
+import Error from "./pages/Error";
+import "./App.css"; 
 
-function App() {
-  const [chiffre, setChiffre] = useState(0)
 
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <button onClick={() => setChiffre(chiffre + 1 )}>clic me : {chiffre}</button>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+function App () {
+    return (
+        <div className="App">
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/Appartements" element={<Appartements />} />
+                <Route path="/About" element={<About />} />
+                <Route path="/*" element={<Error />} />
+            </Routes>
+        </div>
+    )
+} 
 
-export default App;
+export default App; 
