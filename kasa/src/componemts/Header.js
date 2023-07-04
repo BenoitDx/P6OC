@@ -1,11 +1,12 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import logo from "../images/logo.png"
-import style from "../styles/header.css" 
+import style from "../styles/Header.css" 
 
 
 
-export default function Header() {
+
+const Header = () => {
     return (
         <div className='header-container'>
       
@@ -31,3 +32,5 @@ export default function Header() {
 
     )
 }
+
+export default Header;

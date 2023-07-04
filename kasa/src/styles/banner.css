@@ -11,8 +11,6 @@
     object-fit: cover;
     border-radius: 25px;
     filter: brightness(70%);
-    margin-left: 20px;
-    margin-right: 20px;
   }
   .title-banner {
     position: absolute;
