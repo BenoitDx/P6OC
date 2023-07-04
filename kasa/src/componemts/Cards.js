@@ -11,7 +11,7 @@ const Cards = () => {
               {data.map((item) => (
                 <Link to={`/logements/${item.id}`} key={item.id} className='card-box'>
                   <div className='card'>
-                    <img className='card-cover' src={item.cover} alt='cover' />
+                    <img className='card-cover' src={item.cover} alt='image logement' />
                     <div className='card-overlay'></div>
                     <span className='card-title'>{item.title}</span>
                   </div>
