@@ -1,0 +1,19 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    color: white;
+    height: 209px;
+}
+.legals{
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+}
+.img {
+    color: white;
+}
+
