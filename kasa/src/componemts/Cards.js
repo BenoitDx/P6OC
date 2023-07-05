@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom"
-import style from '../styles/Cards.css'
+import '../styles/Cards.css'
 import data from '../data/logementData.json'
 
 const Cards = () => {

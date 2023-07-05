@@ -5,8 +5,8 @@ import Appartements from "./pages/Appartements";
 import About from "./pages/About"
 import Error from "./pages/Error";
 import "./styles/App.css"; 
-import Header from "../src/componemts/header";
-import Footer from "../src/componemts/footer";
+import Header from "../src/componemts/Header";
+import Footer from "../src/componemts/Footer";
 
 
 function App () {
