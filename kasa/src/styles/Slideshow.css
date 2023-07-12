@@ -1,9 +1,11 @@
 .left-arrow {
-    filter: invert(100%); 
+    filter: invert(100%);
+    position: absolute; 
   }
   
 .right-arrow {
     filter: invert(100%); 
+    position: absolute;
   }
   .img-show{
     object-fit: cover;
