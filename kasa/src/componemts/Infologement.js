@@ -25,9 +25,10 @@ const Infologement = () => {
           <img className='host-pic' src={cardData.host.picture}  />
         </div>
         <Rating rating={cardData.rating} />
+        
       </div>
     </div>
   );
 };
-
+// MANQUE COLLAPSE DESCRIPTION EQUIPEMENTS !!!!
 export default Infologement;

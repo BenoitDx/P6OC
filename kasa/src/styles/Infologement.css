@@ -20,6 +20,7 @@
 .location{
     font-size: 18px;
     text-align: left;
+    margin-top: 8px;
 }
 .tag-list{
     display: flex;
