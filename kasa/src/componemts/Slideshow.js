@@ -29,11 +29,7 @@ const Slideshow = ({ images }) => {
         alt="Previous"
         onClick={previousSlide}
       />
-
-     
-      <img src={images[currentImageIndex]} alt="Slideshow" />
-
-      
+      <img className='img-show' src={images[currentImageIndex]} alt="Slideshow" />
       <img
         className="arrow right-arrow"
         src={rightArrow}

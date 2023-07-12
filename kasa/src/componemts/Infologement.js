@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import data from '../data/logementData.json';
+import '../styles/Infologement.css'
 
 const Infologement = () => {
   const { id } = useParams();

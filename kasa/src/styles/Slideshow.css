@@ -5,3 +5,9 @@
 .right-arrow {
     filter: invert(100%); 
   }
+  .img-show{
+    object-fit: cover;
+    width: 1240px;
+    height: 415px;
+    border-radius: 25px;
+}
