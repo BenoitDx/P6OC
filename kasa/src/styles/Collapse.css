@@ -27,7 +27,7 @@
 
 .collapse-text-about{
     color: #FF6060;
-    font-size: 24px;
+    font-size: 16px;
     background-color: #F6F6F6;
     max-width: 100%;
     padding: 30px;
@@ -63,3 +63,5 @@
       max-height: 500px; 
     }
   }
+
+/* Voir pour animation sens invers direction vector !!!! */
