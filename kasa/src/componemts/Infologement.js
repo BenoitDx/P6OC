@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import data from '../data/logementData.json';
 import '../styles/Infologement.css'
-
+import Rating from '../componemts/Rating';
 const Infologement = () => {
   const { id } = useParams();
    // Recherche des données de la carte correspondant à l'ID dans les données
@@ -22,8 +22,9 @@ const Infologement = () => {
       <div className='second-part'>
         <div className='host'>
           <div className='host-name'>{cardData.host.name}</div>
-          <img className='host-pic' src={cardData.host.picture} alt={'gallerie'} />
+          <img className='host-pic' src={cardData.host.picture}  />
         </div>
+        <Rating rating={cardData.rating} />
       </div>
     </div>
   );
