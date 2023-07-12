@@ -66,3 +66,12 @@
     width: 64px;
     border-radius: 50%;
 }
+.rating-stars{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.star-icon{
+    width: 24px;
+    height: 25px;
+}

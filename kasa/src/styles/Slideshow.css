@@ -1,15 +1,25 @@
-.left-arrow {
-    filter: invert(100%);
-    position: absolute; 
-  }
-  
-.right-arrow {
-    filter: invert(100%); 
-    position: absolute;
-  }
-  .img-show{
+.img-show{
     object-fit: cover;
     width: 1240px;
     height: 415px;
     border-radius: 25px;
+}
+
+.slideshow {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-count {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  padding-bottom: 40px;
+  
 }
