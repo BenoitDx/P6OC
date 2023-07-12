@@ -3,6 +3,9 @@ import { useParams } from 'react-router-dom';
 import data from '../data/logementData.json';
 import '../styles/Infologement.css'
 import Rating from '../componemts/Rating';
+import CollapseLogement from '../componemts/CollapseLogement';
+
+
 const Infologement = () => {
   const { id } = useParams();
    // Recherche des données de la carte correspondant à l'ID dans les données
@@ -25,10 +28,13 @@ const Infologement = () => {
           <img className='host-pic' src={cardData.host.picture}  />
         </div>
         <Rating rating={cardData.rating} />
-        
+      </div>
+      <div className='Third-part'>
+        <CollapseLogement/>
       </div>
     </div>
+
+    
   );
 };
-// MANQUE COLLAPSE DESCRIPTION EQUIPEMENTS !!!!
 export default Infologement;

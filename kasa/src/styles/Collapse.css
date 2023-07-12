@@ -40,14 +40,14 @@
 }
 
 .direction-vector {
-    width: 31px;
-    height: 31px;
-  }
-.direction-vector.rotate {
-    transform: rotate(180deg);
-    transition: 1s ease;
-  }
+  width: 31px;
+  height: 31px;
+  transition: 1s ease;
+}
 
+.direction-vector.rotate {
+  transform: rotate(180deg);
+}
 
 .collapse-text-about {
     max-height: 0;

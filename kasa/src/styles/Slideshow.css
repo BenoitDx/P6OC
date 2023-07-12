@@ -1,8 +1,9 @@
 .img-show{
-    object-fit: cover;
-    width: 1240px;
-    height: 415px;
-    border-radius: 25px;
+  display: block;
+  object-fit: cover;
+  width: 1240px;
+  height: 415px;
+  border-radius: 25px;
 }
 
 .slideshow {
@@ -11,6 +12,7 @@
 
 .image-container {
   position: relative;
+  display: inline-block;
 }
 
 .image-count {
@@ -22,4 +24,18 @@
   left: 50%;
   padding-bottom: 40px;
   
+}
+.left-arrow,
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
 }

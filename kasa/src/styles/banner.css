@@ -22,3 +22,24 @@
     top: 50%;
     transform: translate(-50%, -50%);
   }
+
+  @media (max-width: 768px) {
+    .banner-container {
+      flex-direction: column; 
+      height: auto; 
+    }
+    
+    .banner-image {
+      border-radius: 25; 
+       width: auto;
+       height: auto;
+    }
+    
+    .title-banner {
+      position: static;
+      transform: none; 
+      font-size: 24px; 
+      width: auto; 
+      text-align: center; 
+  }
+}

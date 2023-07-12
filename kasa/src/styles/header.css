@@ -44,3 +44,17 @@ nav .active {
     text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 340px;
+    align-items: center;
+    margin: auto
+
+}
+
+    
+  }

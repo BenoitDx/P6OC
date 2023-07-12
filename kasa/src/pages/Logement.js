@@ -12,7 +12,7 @@ const LogementDetail = () => {
 
   return (
     <div>
-      <h2>{id} PROVISOIRE </h2>
+      
       {logement && (
         <div>
           <Slideshow images={logement.pictures} />

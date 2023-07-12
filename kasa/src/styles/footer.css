@@ -13,3 +13,13 @@
     font-size: 24px;
     margin: 10px;
 }
+@media (max-width: 768px) {
+    .footer-container {
+      height: auto; /* Ajuster la hauteur automatiquement pour s'adapter au contenu */
+      padding: 20px; /* Ajouter un espacement intérieur pour les appareils mobiles */
+    }
+  
+    .legals {
+      font-size: 18px; /* Réduire la taille de la police pour les appareils mobiles */
+    }
+  }
