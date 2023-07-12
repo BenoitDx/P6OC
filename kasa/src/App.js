@@ -1,7 +1,7 @@
 import {Routes, Route} from "react-router-dom";
 import React from 'react';
 import Home from './pages/Home'
-import Accommodation from "./pages/Accommodation";
+import Logement from "./pages/Logement";
 import About from "./pages/About"
 import Error from "./pages/Error";
 import "./styles/App.css"; 
@@ -15,7 +15,7 @@ function App () {
             <Header></Header>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/Accommodation" element={<Accommodation />} />
+                <Route path="/Logement/:id" element={<Logement />} />
                 <Route path="/About" element={<About />} />
                 <Route path="/*" element={<Error />} />
             </Routes>
