@@ -4,7 +4,7 @@ import rightArrow from '../images/arrow-right.svg';
 import '../styles/Slideshow.css';
 
 const Slideshow = ({ images }) => {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0); // Déclare l'état local currentImageIndex à l'aide du hook useState, initialement défini sur 0
 
 // Fonction pour afficher la prochaine image
   const nextSlide = () => {

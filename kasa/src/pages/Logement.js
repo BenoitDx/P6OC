@@ -13,7 +13,7 @@ const LogementDetail = () => {
   return (
     <div>
       
-      {logement && (
+      {logement && ( // Vérifie si l'appartement existe dans les données
         <div>
           <Slideshow images={logement.pictures} />
           <Infologement />
