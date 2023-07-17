@@ -25,7 +25,7 @@ const Infologement = () => {
       <div className='second-part'>
         <div className='host'>
           <div className='host-name'>{cardData.host.name}</div>
-          <img className='host-pic' src={cardData.host.picture}  />
+          <img className='host-pic' src={cardData.host.picture} alt="" />
         </div>
         <Rating rating={cardData.rating} />
       </div>

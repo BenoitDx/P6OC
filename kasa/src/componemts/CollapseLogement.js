@@ -31,7 +31,7 @@ const CollapseRow = () => {
       }
     };
 
-    return ( // Rend la structure d'une section pliable (collapsible) avec son en-tête et son contenu
+    return ( // Rend la structure d'une section pliable 'collapsible' avec son en-tête et son contenu
       <div className='collapse'>
         <div className='collapse-header' onClick={handleToggle}>
           <span className='collapse-title'>{title}</span>
