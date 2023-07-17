@@ -30,7 +30,7 @@ const Infologement = () => {
         <Rating rating={cardData.rating} />
       </div>
       <div className='Third-part'>
-        <CollapseLogement/>
+        <CollapseLogement/> 
       </div>
     </div>
 
