@@ -46,15 +46,21 @@ nav .active {
 
 @media (max-width: 768px) {
 
-.header-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 340px;
-    align-items: center;
-    margin: auto
-
+.header-container {
+    min-width: 325px;
 }
-
-    
+.header-tile {
+    width: 145px;
+    height: 45px;
+}
+.nav-ul {
+    gap: 20px;
+}
+.link-pages {
+    font-size: 12px;
+}
+.letter-title {
+    width: 140px;
+    height: 45px;
+}
   }

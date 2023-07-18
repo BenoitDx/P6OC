@@ -15,11 +15,11 @@
 }
 @media (max-width: 768px) {
     .footer-container {
-      height: auto; /* Ajuster la hauteur automatiquement pour s'adapter au contenu */
-      padding: 20px; /* Ajouter un espacement intérieur pour les appareils mobiles */
+      height: 209px; 
+      width: auto;
     }
   
     .legals {
-      font-size: 18px; /* Réduire la taille de la police pour les appareils mobiles */
+      font-size: 18px; 
     }
   }
