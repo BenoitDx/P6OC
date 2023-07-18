@@ -275,6 +275,7 @@
   .collapse {
     width: 100%;
     height: 30px;
+    
   }
   .collapse-row {
     flex-direction: column;
@@ -288,7 +289,8 @@
     height: 10px;
   }
   .collapse-text {
-    position: absolute;
+    max-width: 100%;
+        min-height: 0px;
   }
 }
 .erreur {
@@ -355,6 +357,7 @@
   .footer-container {
     height: 209px;
     width: 100%;
+    
   }
   .legals {
     font-size: 18px;
@@ -483,7 +486,7 @@ nav .active {
   padding-top: 3px;
   padding-left: 30px;
   padding-right: 30px;
-  border-radius: 10px;
+  border-radius: 5px;
   list-style: none;
   text-align: center;
 }
@@ -524,6 +527,7 @@ nav .active {
     flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
+    
   }
   .second-part {
     flex-direction: row-reverse;
@@ -550,9 +554,7 @@ nav .active {
   .location {
     font-size: 14px;
   }
-  .Third-part {
-    position: relative;
-  }
+
 }
 .img-show {
   display: block;
@@ -605,7 +607,9 @@ nav .active {
   .slideshow {
     height: 255px;
     width: 100vw;
+    
   }
+  
   .image-count {
     display: none;
   }
