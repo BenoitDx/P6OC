@@ -77,4 +77,41 @@
     width: 24px;
     height: 25px;
 }
-
+@media (max-width: 768px) {
+    
+.info-section {
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px
+} 
+.second-part {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}  
+.host-name{
+    font-size: 14px;
+}
+.star-icon{
+    width: 17px;
+    height: 18px;
+}
+.tags{
+    font-size: 10px;
+    height: 18px;
+    width: 84px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.title-logement {
+    font-size: 18px;
+}
+.location {
+    font-size: 14px;
+}
+.Third-part {
+    position: relative;
+}
+}

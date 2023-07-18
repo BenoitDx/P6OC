@@ -39,3 +39,23 @@
 .right-arrow {
   right: 10px;
 }
+
+@media (max-width: 768px) {
+  .img-show {
+    height: 255px;
+    width: 95vw;
+    
+  }
+.slideshow{
+  height: 255px;
+  width: 100vw;
+}
+.image-count {
+  display: none;
+}
+.left-arrow,
+.right-arrow {
+  width: 20px;
+
+}
+}
