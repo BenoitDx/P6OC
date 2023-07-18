@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/Collapse.css'
+import '../styles/styles.css'
 import up from '../images/up.svg'
 
 function Collapse({ title, text }) {// Définit le composant Collapse qui prend les propriétés title et text

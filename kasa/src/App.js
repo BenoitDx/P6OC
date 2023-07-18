@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import Logement from "./pages/Logement";
 import About from "./pages/About"
 import Error from "./pages/Error";
-import "./styles/App.css"; 
+import "./styles/styles.css"; 
 import Header from "../src/componemts/Header";
 import Footer from "../src/componemts/Footer";
 

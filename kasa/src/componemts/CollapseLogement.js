@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/CollapseLogement.css';
+import '../styles/styles.css';
 import upVector from '../images/up.svg';
 import { useParams } from 'react-router-dom';
 import data from '../data/logementData.json';

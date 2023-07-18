@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import leftArrow from '../images/arrow-left.svg';
 import rightArrow from '../images/arrow-right.svg';
-import '../styles/Slideshow.css';
+import '../styles/styles.css';
 
 const Slideshow = ({ images }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0); // Déclare l'état local currentImageIndex à l'aide du hook useState, initialement défini sur 0
