@@ -64,4 +64,9 @@
     }
   }
 
-/* Voir pour animation sens invers direction vector !!!! */
+  @media (max-width: 768px) {
+.collapse-title-about {
+  font-size: 14px;
+}
+
+  }

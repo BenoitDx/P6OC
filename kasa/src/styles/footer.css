@@ -16,7 +16,7 @@
 @media (max-width: 768px) {
     .footer-container {
       height: 209px; 
-      width: auto;
+      width: 100%;
     }
   
     .legals {

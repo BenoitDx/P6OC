@@ -6,7 +6,7 @@ import bannerImage from '../images/bannerabouts.png';
 const BannerAbouts = () => {
     return (
       <div className='banner-container'>
-        <img className='banner-image' src={bannerImage} alt="Paysage" />
+        <img className='banner-image banner-abouts' src={bannerImage} alt="Paysage" />
       </div>
     );
   };
