@@ -1,6 +1,6 @@
 import React from 'react';
-import starEmpty from '../images/star-empty.svg';
-import starPlain from '../images/star-plain.svg';
+import starEmpty from '../../images/star-empty.svg';
+import starPlain from '../../images/star-plain.svg';
 
 const Rating = ({ rating }) => {
   const MAX_RATING = 5;// Nombre maximum d'étoiles possibles

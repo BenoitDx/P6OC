@@ -1,8 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import data from '../data/logementData.json';
-import Slideshow from "../componemts/Slideshow";
-import Infologement from "../componemts/Infologement";
+import Slideshow from "../componemts/Slideshow/Slideshow";
+import Infologement from "../componemts/Infologement/Infologement";
 
 const LogementDetail = () => {
   const { id } = useParams(); // Récupère l'ID de l'appartement dans l'URL

@@ -1,6 +1,6 @@
 import React from "react"
-import Banner from "../componemts/Banner";
-import Cards from "../componemts/Cards";
+import Banner from "../componemts/Banner/Banner";
+import Cards from "../componemts/Cards/Cards";
 
 
 const Home = () => {
