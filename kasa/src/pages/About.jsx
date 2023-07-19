@@ -1,6 +1,6 @@
 import React from "react"
-import BannerAbouts from "../componemts/BannerAbouts/BannerAbouts";
-import Collapse from "../componemts/Collapse/Collapse";
+import BannerAbouts from "../componemts/BannerAbouts.jsx";
+import Collapse from "../componemts/Collapse.jsx";
 
 const About = () => {
   return (

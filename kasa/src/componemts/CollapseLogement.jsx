@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import '../../styles/styles.css';
-import upVector from '../../images/up.svg';
+import '../styles/styles.css';
+import upVector from '../images/up.svg';
 import { useParams } from 'react-router-dom';
-import data from '../../data/logementData.json';
+import data from '../data/logementData.json';
 
 
 const CollapseRow = () => {

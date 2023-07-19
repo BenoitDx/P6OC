@@ -1,9 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import data from '../../data/logementData.json';
-import '../../styles/styles.css'
-import Rating from '../Rating/Rating';
-import CollapseLogement from '../CollapseLogement/CollapseLogement'
+import data from '../data/logementData.json';
+import '../styles/styles.css'
+import Rating from './Rating.jsx';
+import CollapseLogement from './CollapseLogement.jsx'
 
 
 const Infologement = () => {

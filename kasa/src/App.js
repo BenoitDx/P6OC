@@ -1,12 +1,12 @@
 import {Routes, Route} from "react-router-dom";
 import React from 'react';
-import Home from './pages/Home'
-import Logement from "./pages/Logement";
-import About from "./pages/About"
-import Error from "./pages/Error";
+import Home from './pages/Home.jsx'
+import Logement from "./pages/Logement.jsx";
+import About from "./pages/About.jsx"
+import Error from "./pages/Error.jsx";
 import "./styles/styles.css"; 
-import Header from "../src/componemts/Header/Header";
-import Footer from "../src/componemts/Footer/Footer";
+import Header from "../src/componemts/Header.jsx";
+import Footer from "../src/componemts/Footer.jsx";
 
 
 function App () {

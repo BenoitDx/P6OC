@@ -1,6 +1,6 @@
 import React from "react"
-import Banner from "../componemts/Banner/Banner";
-import Cards from "../componemts/Cards/Cards";
+import Banner from "../componemts/Banner.jsx";
+import Cards from "../componemts/Cards.jsx";
 
 
 const Home = () => {

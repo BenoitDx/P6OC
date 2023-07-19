@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import '../../styles/styles.css'
-import up from '../../images/up.svg'
+import '../styles/styles.css'
+import up from '../images/up.svg'
 
 function Collapse({ title, text }) {// Définit le composant Collapse qui prend les propriétés title et text
   const [show, setShow] = useState(false);// Déclare un état local show à l'aide du hook useState, initialement défini sur false
