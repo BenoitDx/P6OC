@@ -27,7 +27,7 @@ const CollapseRow = () => {
           </ul>
         );
       } else { // Si le contenu n'est pas un tableau
-        return <p className={`collapse-text-about ${show ? 'show' : ''}`}>
+        return <p className={`collapse-text-about log ${show ? 'show' : ''}`}>
         {content}</p>;// Rend le contenu comme un paragraphe <p>
       
       }
