@@ -21,12 +21,14 @@ const CollapseRow = () => {
         return (
           <ul className='collapse-list'>
             {content.map((item, index) => (// Rend chaque élément du tableau comme un élément de liste <li>
-              <li key={index}>{item}</li>
+              <li key={index} className={`collapse-item ${show ? 'show' : ''}`}>
+              {item}</li>
             ))}
           </ul>
         );
       } else { // Si le contenu n'est pas un tableau
-        return <p className='collapse-text'>{content}</p>;// Rend le contenu comme un paragraphe <p>
+        return <p className={`collapse-text-about ${show ? 'show' : ''}`}>
+        {content}</p>;// Rend le contenu comme un paragraphe <p>
       
       }
     };
