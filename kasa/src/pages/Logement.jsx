@@ -3,6 +3,7 @@ import { useParams, } from "react-router-dom";
 import data from '../data/logementData.json';
 import Slideshow from "../componemts/Slideshow.jsx";
 import Infologement from "../componemts/Infologement.jsx";
+import Error from "./Error";
 
 const LogementDetail = () => {
   const { id } = useParams(); // Récupère l'ID de l'appartement dans l'URL
@@ -10,10 +11,12 @@ const LogementDetail = () => {
   // Recherche de l'appartement correspondant à l'ID dans les données
   const logement = data.find(item => item.id === id);
   
+ 
+
   if (!logement) {
-    window.location.href = "/error";
-    return null;
+    return <Error />;
   }
+
 
   return (
     <div>
