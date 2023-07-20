@@ -3,13 +3,16 @@ import { useParams } from 'react-router-dom';
 import data from '../data/logementData.json';
 import '../styles/styles.css'
 import Rating from './Rating.jsx';
-import CollapseLogement from './CollapseLogement.jsx'
+import Collapse from './Collapse.jsx'
 
 
 const Infologement = () => {
   const { id } = useParams();
    // Recherche des données de la carte correspondant à l'ID dans les données
   const cardData = data.find((item) => item.id === id);
+  const description = cardData.description;
+  const equipments = cardData.equipments;
+  
 
   return (
     <div className='info-section'>
@@ -30,8 +33,11 @@ const Infologement = () => {
         <Rating rating={cardData.rating} />
       </div>
       <div className='Third-part'>
-        <CollapseLogement/> 
-      </div>
+      <div className="collapse-logement">
+        <Collapse id="collapse-position1" title={'Description'} text={description} />	
+        <Collapse id="collapse-position1" title={'Équipements'} text={equipments} />						 
+        </div>
+			</div>
     </div>
 
     

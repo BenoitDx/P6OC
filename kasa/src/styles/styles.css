@@ -29,7 +29,9 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
-
+.banner-abouts {
+  margin-left: 20px;
+}
 @media (max-width: 768px) {
   .banner-container {
     flex-direction: column;
@@ -136,92 +138,31 @@
     text-align: left;
   }
 }
-.collapse-about {
-  max-width: 1023px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  cursor: pointer;
-}
 
-.collapse-header-about {
-  background-color: #FF6060;
-  display: flex;
-  flex-direction: row;
-  color: white;
-  max-width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 24px;
-  padding-left: 18px;
-  padding-right: 33px;
-  height: 47px;
-  border-radius: 5px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.collapse-text-about {
-  color: #FF6060;
-  font-size: 16px;
-  background-color: #F6F6F6;
-  max-width: 100%;
-  padding: 30px;
-  line-height: 150%;
-  border-radius: 0 0 5px 5px;
-  margin-left: 20px;
-  margin-right: 20px;
-  text-align: left;
-}
-
-.direction-vector {
-  width: 31px;
-  height: 31px;
-  transition: 1s ease;
-}
-
-.direction-vector.rotate {
-  transform: rotate(180deg);
-}
-
-.collapse-text-about {
-  max-height: 0;
-  overflow: hidden;
-  animation: expandText 2s ease-in-out forwards;
-}
-
-@keyframes expandText {
-  0% {
-    max-height: 0;
-  }
-  100% {
-    max-height: 500px;
-  }
-}
-@media (max-width: 768px) {
-  .collapse-title-about {
-    font-size: 14px;
-  }
-}
 .collapse {
-  width: 580px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 0;
   margin-top: 24px;
-  margin-bottom: 0px;
   cursor: pointer;
 }
+#collapse-position1 {
+width:500px;
 
-.collapse-row {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 32px;
+
 }
-
+ #collapse-position2{
+  width: 80%;
+  margin-bottom: 30px;
+}
+.collapser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1240px;
+  margin: auto;
+  
+}
 .collapse-header {
   background-color: #FF6060;
   display: flex;
@@ -234,6 +175,7 @@
   padding-right: 33px;
   height: 52px;
   border-radius: 5px;
+  
 }
 
 .collapse-text {
@@ -241,29 +183,18 @@
   font-size: 18px !important;
   background-color: #F6F6F6;
   max-width: 100%;
-  min-height: 150px;
   padding: 30px;
   line-height: 140%;
   border-radius: 0 0 5px 5px;
   text-align: left;
+  max-height: 0;
+  overflow: hidden;
+  animation: expandListItem 1s ease-in-out forwards;
 }
 .log {
   margin: 0;
 }
-.collapse-text-about {
-  max-height: 0;
-  overflow: hidden;
-  animation: expandText 2s ease-in-out forwards;
-}
 
-@keyframes expandText {
-  0% {
-    max-height: 0;
-  }
-  100% {
-    max-height: 500px; 
-  }
-}
 .collapse-list {
   color: #FF6060;
   font-size: 18px !important;
@@ -281,13 +212,16 @@
   overflow: hidden;
   animation: expandListItem 2s ease-in-out forwards;
 }
-
+.collapse-logement {
+  display: flex;
+  justify-content: space-between;
+}
 @keyframes expandListItem {
   0% {
     max-height: 0;
   }
   100% {
-    max-height: 500px; /* Remplacez la valeur par la hauteur réelle de vos éléments li */
+    max-height: 500px; 
   }
 } 
 .direction-vector {
@@ -301,11 +235,13 @@
 }
 
 @media (max-width: 768px) {
-  .collapse {
+  .collapser{
     width: 100%;
-    
   }
-  .collapse-row {
+  .collapse-header{
+    height: 30px;
+  }
+  .collapse-logement {
     flex-direction: column;
     position: relative;
   }
@@ -319,6 +255,14 @@
   .collapse-text {
     max-width: 100%;
         min-height: 0px;
+  }
+  #collapse-position1 {
+    width:100%;
+    margin-top: 20px;
+    }
+  #collapse-position2{
+     width: 90%;
+    margin-bottom: 30px;
   }
 }
 .erreur {
@@ -373,6 +317,7 @@
   align-items: center;
   color: white;
   height: 209px;
+  margin-top: 40px;
 }
 
 .legals {
@@ -385,6 +330,7 @@
   .footer-container {
     height: 209px;
     width: 100%;
+    margin-top: 20px
     
   }
   .legals {
@@ -481,6 +427,7 @@ nav .active {
 
 .Third-part {
   grid-column: span 2;
+  margin-bottom: 20px;
 }
 
 .title-logement {
@@ -572,9 +519,11 @@ nav .active {
   .tags {
     font-size: 10px;
     height: 18px;
-    width: 84px;
     padding-left: 0;
     padding-right: 0;
+  }
+  .tag-list {
+    width: 95%;
   }
   .title-logement {
     font-size: 18px;
