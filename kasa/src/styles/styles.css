@@ -29,9 +29,11 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
 .banner-abouts {
   margin-left: 20px;
 }
+
 @media (max-width: 768px) {
   .banner-container {
     flex-direction: column;
@@ -138,7 +140,6 @@
     text-align: left;
   }
 }
-
 .collapse {
   display: flex;
   flex-direction: column;
@@ -146,23 +147,24 @@
   margin-top: 24px;
   cursor: pointer;
 }
+
 #collapse-position1 {
-width:500px;
-
-
+  width: 500px;
 }
- #collapse-position2{
+
+#collapse-position2 {
   width: 80%;
   margin-bottom: 30px;
 }
+
 .collapser {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 1240px;
   margin: auto;
-  
 }
+
 .collapse-header {
   background-color: #FF6060;
   display: flex;
@@ -175,7 +177,6 @@ width:500px;
   padding-right: 33px;
   height: 52px;
   border-radius: 5px;
-  
 }
 
 .collapse-text {
@@ -191,6 +192,7 @@ width:500px;
   overflow: hidden;
   animation: expandListItem 1s ease-in-out forwards;
 }
+
 .log {
   margin: 0;
 }
@@ -207,23 +209,26 @@ width:500px;
   border-radius: 0 0 5px 5px;
   text-align: left;
 }
+
 .collapse-list li {
   max-height: 0;
   overflow: hidden;
   animation: expandListItem 2s ease-in-out forwards;
 }
+
 .collapse-logement {
   display: flex;
   justify-content: space-between;
 }
+
 @keyframes expandListItem {
   0% {
     max-height: 0;
   }
   100% {
-    max-height: 500px; 
+    max-height: 500px;
   }
-} 
+}
 .direction-vector {
   width: 31px;
   height: 31px;
@@ -235,10 +240,10 @@ width:500px;
 }
 
 @media (max-width: 768px) {
-  .collapser{
+  .collapser {
     width: 100%;
   }
-  .collapse-header{
+  .collapse-header {
     height: 30px;
   }
   .collapse-logement {
@@ -254,14 +259,14 @@ width:500px;
   }
   .collapse-text {
     max-width: 100%;
-        min-height: 0px;
+    min-height: 0px;
   }
   #collapse-position1 {
-    width:100%;
+    width: 100%;
     margin-top: 20px;
-    }
-  #collapse-position2{
-     width: 90%;
+  }
+  #collapse-position2 {
+    width: 90%;
     margin-bottom: 30px;
   }
 }
@@ -330,8 +335,7 @@ width:500px;
   .footer-container {
     height: 209px;
     width: 100%;
-    margin-top: 20px
-    
+    margin-top: 20px;
   }
   .legals {
     font-size: 18px;
@@ -502,7 +506,6 @@ nav .active {
     flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
-    
   }
   .second-part {
     flex-direction: row-reverse;
@@ -531,7 +534,6 @@ nav .active {
   .location {
     font-size: 14px;
   }
-
 }
 .img-show {
   display: block;
@@ -584,9 +586,7 @@ nav .active {
   .slideshow {
     height: 255px;
     width: 100vw;
-    
   }
-  
   .image-count {
     display: none;
   }
