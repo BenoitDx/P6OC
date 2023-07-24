@@ -9,14 +9,11 @@ import "../styles/styles.css"
 const Header = () => {
     return (
         <div className='header-container'>
-      
         <Link className='link-pages' to="/">
           <h1 className='header-tile'>
             <img className='letter-title' src={logo} alt="logo kasa"/>
           </h1>
         </Link>
-      
-
       <nav className='nav-part'>
         <ul className='nav-ul'>
           <li className='nav-li'>
@@ -28,8 +25,6 @@ const Header = () => {
         </ul>
       </nav>
     </div>
-    
-
     )
 }
 
